@@ -196,7 +196,7 @@ $('.eqLogicAction[data-action=returnToThumbnailDisplay]').removeAttr('href').off
   $('.eqLogic').hide()
   $('.eqLogicThumbnailDisplay').show()
   $(this).closest('ul').find('li').removeClass('active')
-  jeedomUtils.addOrUpdateUrl('id', null, )
+  jeedomUtils.addOrUpdateUrl('id', null)
 })
 
 $(".eqLogicDisplayCard").on('click', function(event) {
